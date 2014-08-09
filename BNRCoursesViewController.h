@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BNRCoursesViewController : NSObject
+@class BNRWebViewController;
+
+@interface BNRCoursesViewController : UITableViewController
+
+@property (nonatomic) BNRWebViewController *webViewController;
 
 @end
